@@ -23,9 +23,9 @@ export default function Footer() {
                     </div>
                     <div className="column flex-column">
                         <Link to={'/services'} className="column-title">Services</Link>
-                        <Link to={'/installation-electrique'}>Installation</Link>
-                        <Link to={'/renovation-electrique'}>Rénovation et mise aux normes</Link>
-                        <Link to={'/depannage-electrique'}>Dépannage et maintenance</Link>
+                        <Link to={'/installation'}>Installation</Link>
+                        <Link to={'/renovation-et-mise-aux-normes'}>Rénovation et mise aux normes</Link>
+                        <Link to={'/depannage-et-maintenance'}>Dépannage et maintenance</Link>
                         <Link to={'/eclairage'}>Éclairage</Link>
                         <Link to={'/domotique-et-objets-connectes'}>Domotique et objets connectés</Link>
                     </div>

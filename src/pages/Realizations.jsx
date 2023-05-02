@@ -71,7 +71,7 @@ export default function Realizations() {
                                     de proposer des solutions innovantes pour améliorer le confort et la sécurité
                                     des
                                     habitations de nos clients.</p>
-                                <Link to={'/installation'} className="btn-tertiary">En savoir plus</Link>
+                                <Link to={'/projets-residentiels'} className="btn-tertiary">En savoir plus</Link>
                             </div>
                             <div className="silo-card-image">
                                 <img
@@ -112,7 +112,7 @@ export default function Realizations() {
                                     d'activité. Enfin, nous avons accompagné nos clients dans la mise en place de
                                     systèmes domotiques et d'objets connectés pour faciliter la gestion et la
                                     sécurisation de leurs locaux.</p>
-                                <Link to={'/renovation-et-mise-aux-normes'} className="btn-tertiary">En savoir
+                                <Link to={'/projets-commerciaux'} className="btn-tertiary">En savoir
                                     plus</Link>
                             </div>
                             <div className="silo-card-image">
@@ -155,7 +155,7 @@ export default function Realizations() {
                                     systèmes de gestion intelligente de l'énergie et de la domotique, permettant
                                     d'optimiser la consommation énergétique et de faciliter la surveillance et le
                                     contrôle des installations.</p>
-                                <Link to={'/depannage-et-maintenance'} className="btn-tertiary">En savoir
+                                <Link to={'/projets-industriels'} className="btn-tertiary">En savoir
                                     plus</Link>
                             </div>
                             <div className="silo-card-image">
