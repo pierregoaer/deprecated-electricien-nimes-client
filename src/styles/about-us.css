@@ -1,3 +1,8 @@
+.about-us-intro-text h2{
+    text-align: center;
+    color: var(--white) !important;
+}
+
 .about-us-text {
     max-width: 600px;
     margin: 0 auto 80px auto;

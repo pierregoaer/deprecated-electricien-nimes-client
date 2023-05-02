@@ -66,7 +66,7 @@
         background-color: var(--primary-accent-color);
     }
 
-    .nav-main-navigation-dropdown-list li:hover a{
+    .nav-main-navigation-dropdown-list li:hover a {
         color: var(--white) !important;
     }
 }
@@ -157,8 +157,6 @@
     .nav-main-navigation {
         position: fixed;
         top: 0;
-        /*left: 0;*/
-        /*width: 250px;*/
         width: 100vw;
         height: 100vh;
         background-color: var(--secondary-background-color);
@@ -167,9 +165,8 @@
         transform: translateX(100%);
         right: 0;
         margin: 0;
-        gap: 40px;
-        /*padding-left: 40px;*/
-        justify-content: center;
+        gap: 20px;
+        padding-top: 60px;
         z-index: 15;
     }
 
@@ -212,6 +209,6 @@
         flex-direction: column;
         align-items: center;
         /*margin-left: 20px;*/
-        gap: 10px;
+        gap: 0;
     }
 }

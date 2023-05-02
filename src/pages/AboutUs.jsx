@@ -23,16 +23,16 @@ export default function AboutUs() {
                       content="Découvrez notre entreprise d'électriciens à Nîmes : certifications, compétences, valeurs et engagement envers la qualité et la sécurité de nos clients."/>
                 <meta property="og:image" content="{{ article['hero-image-url'] }}"/>
             </Helmet>
-            <section className="about-us-intro-container">
-                <div className="section-inner about-us-intro-main">
+            <section className="about-us-page-hero">
+                <div className="section-inner hero-section-padding">
                     <div className="about-us-intro-text">
+                        <h2>Certifications, formations et compétences</h2>
                     </div>
                 </div>
             </section>
             <section className="about-us-certifications-container">
-                <div className="section-inner about-us-certifications-main">
+                <div className="section-inner about-us-certifications-main secondary-section-padding">
                     <div className="about-us-text">
-                        <h2>Certifications, formations et compétences</h2>
                         <p>Notre entreprise d'électricité à Nîmes dispose de plusieurs certifications et qualifications
                             professionnelles qui témoignent de notre expertise et de notre sérieux :</p>
                     </div>
@@ -78,7 +78,7 @@ export default function AboutUs() {
                 </div>
             </section>
             <section className="about-us-values-container">
-                <div className="section-inner about-us-values-main">
+                <div className="section-inner about-us-values-main secondary-section-padding">
                     <div className="about-us-text">
                         <h2>Valeurs et engagement envers la qualité et la sécurité</h2>
                         <p>La qualité de nos prestations est au cœur de nos préoccupations. Nous nous engageons à :</p>

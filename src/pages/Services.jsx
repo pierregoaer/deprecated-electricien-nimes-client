@@ -141,7 +141,7 @@ export default function Services() {
                     </div>
                 </section>
                 <section>
-                    <div className="silo-page-text-block">
+                    <div className="silo-page-text-block secondary-section-padding">
                         <p>Faites appel à notre entreprise d'électricité à Nîmes pour bénéficier d'une gamme
                             complète de
                             services électriques adaptés à vos besoins. Notre équipe de professionnels qualifiés est
