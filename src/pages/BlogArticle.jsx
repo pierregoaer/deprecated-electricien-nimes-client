@@ -20,8 +20,8 @@ export default function Blogs({blogsData, blogsFetched}) {
                     <div className="section-inner blog-article--main">
                         <div className="blog-article-header">
                             <h1>{curBlog.title}</h1>
-                            <p className="article-date">{`${curBlog.date} - ${curBlog.readingTime} minutes de lecture`}</p>
-                            <img src={curBlog.heroImageUrl} alt={curBlog.title} className="hero-image"/>
+                            <p className="article-date">{`${curBlog.date} - ${curBlog.reading_time} minutes de lecture`}</p>
+                            <img src={`https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_500,w_800,f_auto/v1682719065/website-lending/electricien-nimes/${curBlog.hero_image_url}`} alt={curBlog.title} className="hero-image"/>
                         </div>
                         <div className="blog-article-body">
                             {articleHTML}

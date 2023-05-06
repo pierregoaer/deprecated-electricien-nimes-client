@@ -26,6 +26,7 @@ function App() {
     useEffect(function () {
         fetch(
             "https://api.electricien-nimes.com/get-blogs",
+            // "http://127.0.0.1:8000/get-blogs",
             {
                 method: 'GET',
             })
