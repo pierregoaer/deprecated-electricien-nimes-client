@@ -1,13 +1,34 @@
-import React, {useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Helmet} from "react-helmet";
 import {Link} from "react-router-dom";
 
 import '../styles/support-page.css';
+import Testimonials from "../components/Testimonials";
+import ImageSlider from "../components/ImageSlider";
 
 export default function ResidentialProjects() {
+    const newConstructionSlides = [
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg',
+            slideName: '',
+            slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695418/website-lending/electricien-nimes/aaron-huber-s95oB2n9jng-unsplash_f62gs8.jpg',
+            slideName: '',
+            slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696152/website-lending/electricien-nimes/point3d-commercial-imaging-ltd-YUeWruccqr4-unsplash_yf8nab.jpg',
+            slideName: '',
+            slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+        }
+    ]
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+
     return (
         <>
             <Helmet>
@@ -49,145 +70,117 @@ export default function ResidentialProjects() {
                                 en vigueur et adaptées à vos besoins. Découvrez quelques exemples de nos réalisations en
                                 matière d'installations électriques pour des constructions neuves :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
-                                Contactez-nous par téléphone ou via notre formulaire en ligne pour signaler votre
-                                problème électrique
-                            </li>
-                            <li className="bullet-list-card">
-                                Un électricien qualifié se rendra sur place dans les plus brefs délais pour évaluer la
-                                situation et effectuer les réparations nécessaires
-                            </li>
-                            <li className="bullet-list-card">
-                                Vous bénéficierez d'un suivi personnalisé et d'un accompagnement tout au long de
-                                l'intervention
-                            </li>
-                        </ul>
-                        <div className="support-page-text">
-                            <p>Parmi les urgences électriques les plus courantes à Nîmes, on retrouve :</p>
-                        </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
-                                Les coupures de courant
-                            </li>
-                            <li className="bullet-list-card">
-                                Les courts-circuits
-                            </li>
-                            <li className="bullet-list-card">
-                                Les surchauffes de câbles ou de prises
-                            </li>
-                            <li className="bullet-list-card">
-                                Les problèmes de disjoncteur
-                            </li>
-                        </ul>
+                        {/*<div className="image-gallery-container">*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Installation d'un tableau électrique moderne et fonctionnel dans une maison*/}
+                        {/*            individuelle</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Mise en place de prises et d'interrupteurs design dans un salon contemporain.</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une*/}
+                        {/*            cuisine ouverte</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+                        <ImageSlider slides={newConstructionSlides}/>
                     </div>
                 </section>
                 <section className="inverted-section">
                     <div className="secondary-section-padding">
                         <div className="support-page-text">
-                            <h2>Diagnostic et réparation de pannes</h2>
-                            <p>Un diagnostic précis et une réparation rapide sont essentiels pour résoudre efficacement
-                                une panne électrique. Faire appel à un électricien à Nîmes vous garantit un service
-                                professionnel et adapté à vos besoins, tout en respectant les normes de sécurité en
-                                vigueur.</p>
-                            <p>Le diagnostic d'une panne électrique par notre équipe d'électriciens à Nîmes se déroule
-                                en plusieurs étapes :</p>
+                            <h2>Rénovation électrique</h2>
+                            <p>La rénovation électrique est essentielle pour garantir la sécurité et la performance de
+                                votre installation électrique. Notre équipe d'électriciens à Nîmes est spécialisée dans
+                                les travaux de rénovation électrique pour améliorer la qualité de vie de nos clients.
+                                Découvrez quelques exemples de nos réalisations en matière de rénovation électrique
+                                :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
-                                L'analyse de la situation et l'identification des symptômes de la panne
-                            </li>
-                            <li className="bullet-list-card">
-                                La recherche de la cause du problème, en effectuant des tests et des mesures
-                            </li>
-                            <li className="bullet-list-card">
-                                La proposition de solutions adaptées pour résoudre la panne et prévenir de futurs
-                                problèmes
-                            </li>
-                        </ul>
-
-                        <div className="support-page-text">
-                            <p>Parmi les pannes électriques les plus courantes à Nîmes, on retrouve :</p>
+                        <div className="image-gallery-container">
+                            <div className="image-gallery-card">
+                                <p>Remplacement d'un tableau électrique obsolète par un modèle plus moderne et
+                                    sécurisé.</p>
+                                <img
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    alt=""/>
+                            </div>
+                            <div className="image-gallery-card">
+                                <p>Mise aux normes électriques d'une maison ancienne, avec installation de prises de
+                                    terre et protection différentielle.</p>
+                                <img
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    alt=""/>
+                            </div>
+                            <div className="image-gallery-card">
+                                <p>Installation d'un système d'éclairage LED pour réduire la consommation d'énergie et
+                                    améliorer le confort visuel.</p>
+                                <img
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    alt=""/>
+                            </div>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
-                                Les problèmes de disjoncteurs ou de fusibles
-                            </li>
-                            <li className="bullet-list-card">
-                                Les courts-circuits
-                            </li>
-                            <li className="bullet-list-card">
-                                Les pannes d'éclairage
-                            </li>
-                            <li className="bullet-list-card">
-                                Les problèmes de prises ou d'interrupteurs
-                            </li>
-                        </ul>
                     </div>
                 </section>
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text">
-                            <h2>Remplacement de composants défectueux</h2>
-                            <p>
-                                Les composants défectueux de votre installation électrique peuvent causer des pannes,
-                                une surconsommation d'énergie ou des risques d'accident. Il est donc important de les
-                                remplacer pour garantir le bon fonctionnement et la sécurité de votre installation.
-                            </p>
-
-                            <p>Le remplacement de composants défectueux par notre équipe d'électriciens à Nîmes implique
-                                plusieurs étapes :</p>
+                            <h2>Extension et aménagement</h2>
+                            <p>Les extensions et aménagements de votre habitation nécessitent souvent une adaptation de
+                                votre installation électrique. En tant qu'électricien à Nîmes, nous vous accompagnons
+                                dans ces projets pour garantir une intégration harmonieuse et sécurisée de vos
+                                équipements électriques. Découvrez quelques exemples de nos réalisations en matière
+                                d'extension et d'aménagement :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
-                                Le diagnostic de l'installation pour identifier les composants défectueux
-                            </li>
-                            <li className="bullet-list-card">
-                                La proposition de solutions adaptées, incluant le remplacement des composants concernés
-                            </li>
-                            <li className="bullet-list-card">
-                                La réalisation des travaux de remplacement et la vérification du bon fonctionnement de
-                                l'installation
-                            </li>
-                        </ul>
-                        <div className="support-page-text">
-                            <p>Parmi les composants électriques les plus couramment remplacés, on retrouve :</p>
+                        <div className="image-gallery-container">
+                            <div className="image-gallery-card">
+                                <p>Installation Installation d'un circuit électrique dédié pour une véranda, avec des
+                                    prises et des points lumineux adaptés. tableau électrique moderne et fonctionnel
+                                    dans une maison
+                                    individuelle</p>
+                                <img
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    alt=""/>
+                            </div>
+                            <div className="image-gallery-card">
+                                <p>Mise en place d'un éclairage extérieur performant et esthétique pour valoriser un
+                                    jardin et une terrasse.</p>
+                                <img
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    alt=""/>
+                            </div>
+                            <div className="image-gallery-card">
+                                <p>Installation d'un réseau électrique pour une suite parentale, avec des prises USB et
+                                    un éclairage personnalisé</p>
+                                <img
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    alt=""/>
+                            </div>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
-                                Les disjoncteurs
-                            </li>
-                            <li className="bullet-list-card">
-                                Les fusibles
-                            </li>
-                            <li className="bullet-list-card">
-                                Les prises et les interrupteurs
-                            </li>
-                            <li className="bullet-list-card">
-                                Les câbles électriques
-                            </li>
-                        </ul>
                     </div>
                 </section>
+                <Testimonials/>
                 <section>
                     <div className="secondary-section-padding">
                         <div className="support-page-text-block">
-                            <p>
-                                En cas de panne ou d'urgence électrique, il est essentiel de pouvoir compter sur un
-                                électricien professionnel et réactif. À Nîmes, notre équipe d'électriciens qualifiés
-                                vous propose un service de dépannage électrique de qualité, incluant la gestion des
-                                urgences, le diagnostic et la réparation de pannes, ainsi que le remplacement de
-                                composants défectueux.
-                            </p>
+                            <p>En tant qu'électricien à Nîmes, nous sommes fiers de vous présenter nos réalisations en
+                                matière de projets résidentiels. La satisfaction de nos clients est notre priorité. Nous
+                                mettons tout en œuvre pour vous offrir un service de qualité, adapté à vos besoins et à
+                                vos attentes.</p>
 
-                            <p>
-                                N'hésitez pas à nous contacter pour obtenir un devis personnalisé pour vos besoins en
-                                dépannage électrique à Nîmes. Nous mettons notre expertise et notre savoir-faire à votre
-                                service pour vous offrir des solutions adaptées à vos besoins et un service rapide et
-                                efficace. Faites confiance à notre équipe pour vous accompagner dans la résolution de
-                                vos problèmes électriques et assurer la sécurité et la performance de votre
-                                installation.
-                            </p>
+                            <p>N'hésitez pas à nous contacter pour discuter de votre projet résidentiel et obtenir un
+                                devis personnalisé. En choisissant notre entreprise d'électriciens à Nîmes, vous
+                                bénéficierez d'une expertise reconnue et d'un accompagnement personnalisé tout au long
+                                de votre projet. Ensemble, concrétisons vos projets électriques et assurons la sécurité,
+                                la performance et le confort de votre habitation !</p>
                         </div>
                     </div>
                 </section>

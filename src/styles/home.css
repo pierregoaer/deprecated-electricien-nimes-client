@@ -47,22 +47,6 @@
 
 }
 
-.hero-text-highlight {
-    position: relative;
-}
-
-.hero-text-highlight::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    height: 40px;
-    width: 110%;
-    z-index: -1;
-    background-color: var(--primary-accent-color);
-    opacity: .7;
-}
-
 /* -- About us section -- */
 .home-about-us-container {
     background-color: var(--primary-accent-color);

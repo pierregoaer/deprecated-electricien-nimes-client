@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import {Helmet} from "react-helmet";
 
-import Hero from '../components/HomeHero.jsx';
+import HomeHero from '../components/HomeHero.jsx';
 import HomeAboutUs from '../components/HomeAboutUs';
 import HomeServices from '../components/HomeServices';
 import Testimonials from '../components/Testimonials';
@@ -29,7 +29,7 @@ export default function Home() {
                 <meta property="og:description" content="Découvrez notre expertise en électricité à Nîmes : installations, rénovations, dépannages et plus encore. Faites confiance à notre équipe pour vos projets électriques."/>
                 <meta property="og:image" content="{{ article['hero-image-url'] }}"/>
             </Helmet>
-            <Hero/>
+            <HomeHero/>
             <HomeAboutUs/>
             <HomeServices/>
             <Testimonials/>

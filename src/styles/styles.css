@@ -10,7 +10,7 @@
     --primary-text-color: #404040;
     --secondary-text-color: #656565;
     --tertiary-text-color: #a1a1a1;
-    --white: white;
+    --white: rgb(255, 255, 255);
     --black: #1f1f1f;
 
     --dark-grey: #7e7e7e;
@@ -51,6 +51,10 @@ main .section-inner {
 
 .inverted-section p {
     color: var(--white);
+}
+
+.inverted-section .image-gallery-card p {
+    color: var(--black);
 }
 
 .inverted-section h2 {
@@ -141,6 +145,22 @@ button {
     cursor: pointer;
 }
 
+.text-highlight {
+    position: relative;
+}
+
+.text-highlight::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 40px;
+    width: 110%;
+    z-index: -1;
+    background-color: var(--primary-accent-color);
+    opacity: .7;
+}
+
 
 .bullet-list-cards {
     display: flex;
@@ -208,6 +228,35 @@ button {
 
 .about-us-values-container {
     background-color: var(--light-grey);
+}
+
+.image-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    column-gap: 50px;
+    row-gap: 80px;
+    margin: 80px 0 70px 0;
+}
+
+.image-gallery-card {
+    flex-basis: 450px;
+    height: auto;
+    padding: 30px;
+    background-color: var(--light-grey);
+    box-shadow: var(--box-shadow-main);
+    border-radius: var(--border-radius-primary);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-gallery-card img {
+    width: 100%;
+    border-radius: var(--border-radius-primary);
 }
 
 .hidden {
