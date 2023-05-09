@@ -11,7 +11,7 @@ export default function ImageSlider({slides}) {
                 className="slider-card"
                 style={{transform: `translateX(${100 * (index - currentIndex)}%)`}}
             >
-                <img src={slide.slideUrl} alt={slide.slideName}/>
+                <img src={slide.slideUrl} alt={slide.slideAlt}/>
                 <p className="slide-text">{slide.slideText}</p>
             </div>
         )

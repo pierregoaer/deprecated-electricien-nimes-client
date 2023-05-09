@@ -11,7 +11,7 @@ export default function HomeHero() {
                     <Link to={'/contact'} className="hero-cta btn-primary">Contactez-Nous</Link>
                 </div>
                 <div className="hero-image">
-                    <img src="/images/electricien-nimes-hero.png" alt="Electricien Nîmes"/>
+                    <img src="https://res.cloudinary.com/dg8awj55m/image/upload/h_500,w_500,f_auto/v1683643284/website-lending/electricien-nimes/images/home-hero.png" alt="Electricien Nîmes"/>
                 </div>
             </div>
         </section>

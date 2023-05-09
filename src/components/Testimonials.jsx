@@ -18,14 +18,17 @@ export default function Testimonials() {
                     <TestimonialCard
                         quote="Nous avons fait appel à cette entreprise d'électriciens à Nîmes pour la construction de notre maison. Du début à la fin, l'équipe a été à l'écoute de nos besoins et a su nous conseiller sur les meilleures solutions pour notre installation électrique. Le résultat est à la hauteur de nos attentes : une installation performante, sécurisée et esthétique. Nous les recommandons sans hésiter !"
                         name="Stéphanie et Laurent"
+                        image="https://res.cloudinary.com/dg8awj55m/image/upload/v1683642961/website-lending/electricien-nimes/testimonials/testimonial-1.png"
                     />
                     <TestimonialCard
                         quote="Nous avons confié la rénovation électrique de notre maison ancienne à cette entreprise d'électriciens à Nîmes. Leurs conseils et leur expertise nous ont permis de moderniser notre installation tout en respectant le cachet de notre habitation. La sécurité de notre famille est désormais assurée grâce à leur travail soigné et professionnel. Merci à toute l'équipe !"
                         name="Mathilde et Pierre"
+                        image="https://res.cloudinary.com/dg8awj55m/image/upload/v1683642961/website-lending/electricien-nimes/testimonials/testimonial-2.png"
                     />
                     <TestimonialCard
                         quote="Suite à l'agrandissement de notre maison, nous avons sollicité les services de ces électriciens à Nîmes pour adapter notre installation électrique. Ils ont su nous proposer des solutions adaptées à notre projet et à notre budget. Le résultat est impeccable et nous sommes ravis de pouvoir profiter pleinement de notre nouvel espace de vie !"
                         name="Sandrine et Guillaume"
+                        image="https://res.cloudinary.com/dg8awj55m/image/upload/v1683642961/website-lending/electricien-nimes/testimonials/testimonial-3.png"
                     />
                 </ul>
             </div>

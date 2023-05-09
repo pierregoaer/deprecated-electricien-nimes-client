@@ -9,18 +9,54 @@ import ImageSlider from "../components/ImageSlider";
 export default function ResidentialProjects() {
     const newConstructionSlides = [
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg',
-            slideName: '',
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682695420/website-lending/electricien-nimes/images/maison-moderne.jpg',
+            slideAlt: 'Conception et réalisation de constructions neuves',
             slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
         },
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695418/website-lending/electricien-nimes/aaron-huber-s95oB2n9jng-unsplash_f62gs8.jpg',
-            slideName: '',
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682631078/website-lending/electricien-nimes/images/salon-moderne-1.jpg',
+            slideName: 'Conception et réalisation de constructions neuves',
             slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
         },
         {
-            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696152/website-lending/electricien-nimes/point3d-commercial-imaging-ltd-YUeWruccqr4-unsplash_yf8nab.jpg',
-            slideName: '',
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659622/website-lending/electricien-nimes/images/maison-connectee.jpg',
+            slideName: 'Conception et réalisation de constructions neuves',
+            slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+        }
+    ]
+
+    const renovationSlides = [
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1682630773/website-lending/electricien-nimes/images/armoire-electrique-a-remplacer.jpg',
+            slideName: "Rénovation d'installation électrique",
+            slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659617/website-lending/electricien-nimes/images/cables-electriques-1.jpg',
+            slideName: "Rénovation d'installation électrique",
+            slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1681828281/website-lending/electricien-nimes/images/electricien-sur-chantier-3.jpg',
+            slideName: "Rénovation d'installation électrique",
+            slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
+        }
+    ]
+
+    const extensionSlides = [
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659624/website-lending/electricien-nimes/images/veranda-extension.jpg',
+            slideName: 'Extension et aménagement d\'habitations',
+            slideText: 'Installation d\'un tableau électrique moderne et fonctionnel dans une maison individuelle.'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659623/website-lending/electricien-nimes/images/panneaux-solaires.jpg',
+            slideName: 'Extension et aménagement d\'habitations',
+            slideText: 'Mise en place de prises et d\'interrupteurs design dans un salon contemporain.'
+        },
+        {
+            slideUrl: 'https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_700,w_1000,f_auto/v1683659613/website-lending/electricien-nimes/images/allee-lumineuse.jpg',
+            slideName: 'Extension et aménagement d\'habitations',
             slideText: 'Installation de luminaires encastrés pour créer une ambiance chaleureuse dans une cuisine ouverte.'
         }
     ]
@@ -105,29 +141,30 @@ export default function ResidentialProjects() {
                                 Découvrez quelques exemples de nos réalisations en matière de rénovation électrique
                                 :</p>
                         </div>
-                        <div className="image-gallery-container">
-                            <div className="image-gallery-card">
-                                <p>Remplacement d'un tableau électrique obsolète par un modèle plus moderne et
-                                    sécurisé.</p>
-                                <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt=""/>
-                            </div>
-                            <div className="image-gallery-card">
-                                <p>Mise aux normes électriques d'une maison ancienne, avec installation de prises de
-                                    terre et protection différentielle.</p>
-                                <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt=""/>
-                            </div>
-                            <div className="image-gallery-card">
-                                <p>Installation d'un système d'éclairage LED pour réduire la consommation d'énergie et
-                                    améliorer le confort visuel.</p>
-                                <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt=""/>
-                            </div>
-                        </div>
+                        {/*<div className="image-gallery-container">*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Remplacement d'un tableau électrique obsolète par un modèle plus moderne et*/}
+                        {/*            sécurisé.</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Mise aux normes électriques d'une maison ancienne, avec installation de prises de*/}
+                        {/*            terre et protection différentielle.</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Installation d'un système d'éclairage LED pour réduire la consommation d'énergie et*/}
+                        {/*            améliorer le confort visuel.</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+                        <ImageSlider slides={renovationSlides}/>
                     </div>
                 </section>
                 <section>
@@ -140,31 +177,32 @@ export default function ResidentialProjects() {
                                 équipements électriques. Découvrez quelques exemples de nos réalisations en matière
                                 d'extension et d'aménagement :</p>
                         </div>
-                        <div className="image-gallery-container">
-                            <div className="image-gallery-card">
-                                <p>Installation Installation d'un circuit électrique dédié pour une véranda, avec des
-                                    prises et des points lumineux adaptés. tableau électrique moderne et fonctionnel
-                                    dans une maison
-                                    individuelle</p>
-                                <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt=""/>
-                            </div>
-                            <div className="image-gallery-card">
-                                <p>Mise en place d'un éclairage extérieur performant et esthétique pour valoriser un
-                                    jardin et une terrasse.</p>
-                                <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt=""/>
-                            </div>
-                            <div className="image-gallery-card">
-                                <p>Installation d'un réseau électrique pour une suite parentale, avec des prises USB et
-                                    un éclairage personnalisé</p>
-                                <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt=""/>
-                            </div>
-                        </div>
+                        {/*<div className="image-gallery-container">*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Installation Installation d'un circuit électrique dédié pour une véranda, avec des*/}
+                        {/*            prises et des points lumineux adaptés. tableau électrique moderne et fonctionnel*/}
+                        {/*            dans une maison*/}
+                        {/*            individuelle</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Mise en place d'un éclairage extérieur performant et esthétique pour valoriser un*/}
+                        {/*            jardin et une terrasse.</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="image-gallery-card">*/}
+                        {/*        <p>Installation d'un réseau électrique pour une suite parentale, avec des prises USB et*/}
+                        {/*            un éclairage personnalisé</p>*/}
+                        {/*        <img*/}
+                        {/*            src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"*/}
+                        {/*            alt=""/>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
+                        <ImageSlider slides={extensionSlides}/>
                     </div>
                 </section>
                 <Testimonials/>

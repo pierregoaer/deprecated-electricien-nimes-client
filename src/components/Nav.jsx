@@ -14,7 +14,7 @@ export default function Nav() {
         <header className="nav-container">
             <div className="nav-main">
                 <Link to={'/'} className="nav-logo-container">
-                    <img className="nav-logo" src="/logos/logo_main.png" alt=""/>
+                    <img className="nav-logo" src="https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1683643626/website-lending/electricien-nimes/logos/logo-main.png" alt="Logo Electricien Nîmes"/>
                 </Link>
                 <ul className="nav-main-navigation" data-visible={mobileNavVisible}>
                     <li className="nav-main-navigation-dropdown">

@@ -44,6 +44,10 @@
     border-radius: var(--border-radius-primary);
 }
 
+.inverted-section .slide-text {
+    color: var(--black);
+}
+
 .slider-dots {
     display: flex;
     gap: 15px;

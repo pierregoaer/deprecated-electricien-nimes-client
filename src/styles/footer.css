@@ -9,7 +9,9 @@
     /*flex: 1;*/
 }
 
-.column a, .column p {
+.column-title,
+.column-link,
+.column-1 p {
     font-size: 1.1rem;
     font-weight: 300;
 }
@@ -21,8 +23,12 @@
 }
 
 .column-title {
-    color: var(--tertiary-text-color);
+    color: #6f6f6f;
     margin-bottom: 0 ;
+}
+
+.column-link {
+    font-weight: 400 !important;
 }
 
 .column-1 {
@@ -31,7 +37,7 @@
 
 .column-1 img {
     height: 45px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .column-5 a {
@@ -55,7 +61,7 @@
 .footer-copyrights {
     text-align: center;
     margin-top: 25px;
-    color: var(--tertiary-text-color)
+    color: #737373
 }
 
 .footer-main {

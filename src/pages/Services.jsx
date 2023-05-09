@@ -58,8 +58,8 @@ export default function Services() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1681828281/website-lending/electricien-nimes/mxwsvviqi9q1kxyso14n.jpg"
-                                    alt="Electricien Nîmes"/>
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1681828281/website-lending/electricien-nimes/images/electricien-sur-chantier-3.jpg"
+                                    alt="Electricien sur une nouvelle installation électrique"/>
                             </div>
                         </div>
                         <div className="silo-card">
@@ -79,8 +79,8 @@ export default function Services() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682630773/website-lending/electricien-nimes/md_jerry-1G5gtser-qY-unsplash_ivmxk5.jpg"
-                                    alt="Electricien Nîmes"/>
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682630773/website-lending/electricien-nimes/images/armoire-electrique-a-remplacer.jpg"
+                                    alt="Rénovation d'une armoir électrique"/>
                             </div>
                         </div>
                         <div className="silo-card">
@@ -97,8 +97,8 @@ export default function Services() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1681830038/website-lending/electricien-nimes/robert-linder-BJILnzj53_M-unsplash_i8ydct.jpg"
-                                    alt="Electricien Nîmes"/>
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1683659617/website-lending/electricien-nimes/images/cables-electriques-1.jpg"
+                                    alt="Dépannage électrique en cas d'urgence"/>
                             </div>
                         </div>
                         <div className="silo-card">
@@ -115,8 +115,8 @@ export default function Services() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631138/website-lending/electricien-nimes/skye-studios-NDLLFxTELrU-unsplash_jguhcr.jpg"
-                                    alt="Electricien Nîmes"/>
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631138/website-lending/electricien-nimes/images/luminaire.jpg"
+                                    alt="Installation d'éclairage intérieur"/>
                             </div>
                         </div>
                         <div className="silo-card">
@@ -133,8 +133,8 @@ export default function Services() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
-                                    alt="Electricien Nîmes"/>
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1683659622/website-lending/electricien-nimes/images/maison-connectee.jpg"
+                                    alt="Installation d'objets connectés"/>
                             </div>
                         </div>
 

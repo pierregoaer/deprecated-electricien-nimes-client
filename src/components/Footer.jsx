@@ -17,28 +17,28 @@ export default function Footer() {
                 <div className="footer-nav">
                     <div className="column-1 column flex-column">
                         <Link to={'/'} className="header-logo-container" onClick={scrollToTop}>
-                            <img className="header-logo" src="/logos/logo_main.png" alt=""/>
+                            <img className="header-logo" src="https://res.cloudinary.com/dg8awj55m/image/upload/f_auto/v1683643626/website-lending/electricien-nimes/logos/logo-main.png" alt="Logo Electricien Nîmes"/>
                         </Link>
-                        <p>Votre expert en électricité dans la région de Nîmes.</p>
+                        <p>Votre expert en électricité dans la région de Nîmes vous proposant une gamme complète de services électriques adaptés à vos besoins et de qualité.</p>
                     </div>
                     <div className="column flex-column">
                         <Link to={'/services'} className="column-title">Services</Link>
-                        <Link to={'/installation'}>Installation</Link>
-                        <Link to={'/renovation-et-mise-aux-normes'}>Rénovation et mise aux normes</Link>
-                        <Link to={'/depannage-et-maintenance'}>Dépannage et maintenance</Link>
-                        <Link to={'/eclairage'}>Éclairage</Link>
-                        <Link to={'/domotique-et-objets-connectes'}>Domotique et objets connectés</Link>
+                        <Link to={'/installation'} className="column-link">Installation</Link>
+                        <Link to={'/renovation-et-mise-aux-normes'} className="column-link">Rénovation et mise aux normes</Link>
+                        <Link to={'/depannage-et-maintenance'} className="column-link">Dépannage et maintenance</Link>
+                        <Link to={'/eclairage'} className="column-link">Éclairage</Link>
+                        <Link to={'/domotique-et-objets-connectes'} className="column-link">Domotique et objets connectés</Link>
                     </div>
                     <div className="column flex-column">
                         <Link to={'/realisations'} className="column-title">Réalisations</Link>
-                        <Link to={'/projets-residentiels'}>Projets résidentiels</Link>
-                        <Link to={'/projets-commerciaux'}>Projets commerciaux</Link>
-                        <Link to={'/projets-industriels'}>Projets industriels</Link>
+                        <Link to={'/projets-residentiels'} className="column-link">Projets résidentiels</Link>
+                        <Link to={'/projets-commerciaux'} className="column-link">Projets commerciaux</Link>
+                        <Link to={'/projets-industriels'} className="column-link">Projets industriels</Link>
                     </div>
                     <div className="column flex-column">
                         <p className="column-title">Menu</p>
-                        <Link to={'/a-propos'}>A propos</Link>
-                        <Link to={'/blog'}>Blog</Link>
+                        <Link to={'/a-propos'} className="column-link">A propos</Link>
+                        <Link to={'/blog'} className="column-link">Blog</Link>
                     </div>
                     <div className="column-5 column flex-column">
                         <p className="column-title">Vous cherchez un expert ?</p>

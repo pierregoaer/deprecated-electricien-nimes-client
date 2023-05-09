@@ -75,18 +75,18 @@ export default function Realizations() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695420/website-lending/electricien-nimes/dcbel-QpeBIiUQI_I-unsplash_tluvd3.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1683659620/website-lending/electricien-nimes/images/chambre-lumineuse.jpg"
+                                    alt="Réalisation de projets résidentiels 1"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/r-architecture-T6d96Qrb5MY-unsplash_vbjufw.jpg"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682631078/website-lending/electricien-nimes/images/salon-moderne-1.jpg"
                                     alt="Electricien Nîmes"
-                                    className="mobile-hidden"
+                                    className="Réalisation de projets résidentiels 2"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695418/website-lending/electricien-nimes/aaron-huber-s95oB2n9jng-unsplash_f62gs8.jpg"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1683659624/website-lending/electricien-nimes/images/veranda-extension.jpg"
                                     alt="Electricien Nîmes"
-                                    className="mobile-hidden"
+                                    className="Réalisation de projets résidentiels 3"
                                 />
                             </div>
                         </div>
@@ -117,17 +117,17 @@ export default function Realizations() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696153/website-lending/electricien-nimes/uneebo-office-design-yNtCxu4kJXk-unsplash_bhaiqc.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696152/website-lending/electricien-nimes/images/bureaux-3.jpg"
+                                    alt="Réalisation de projets commerciaux 1"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696152/website-lending/electricien-nimes/nastuh-abootalebi-yWwob8kwOCk-unsplash_hqeg49.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1683659625/website-lending/electricien-nimes/images/bureaux-1.jpg"
+                                    alt="Réalisation de projets commerciaux 2"
                                     className="mobile-hidden"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696152/website-lending/electricien-nimes/point3d-commercial-imaging-ltd-YUeWruccqr4-unsplash_yf8nab.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682696153/website-lending/electricien-nimes/images/bureaux-4.jpg"
+                                    alt="Réalisation de projets commerciaux 3"
                                     className="mobile-hidden"
                                 />
                             </div>
@@ -160,17 +160,17 @@ export default function Realizations() {
                             </div>
                             <div className="silo-card-image">
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695884/website-lending/electricien-nimes/adrian-sulyok-c_4eaGRDSVU-unsplash_zldack.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695884/website-lending/electricien-nimes/images/usine-6.jpg"
+                                    alt="Réalisation de projets industriels 1"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695884/website-lending/electricien-nimes/martin-adams-a_PDPUPuNZ8-unsplash_z4hzds.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695885/website-lending/electricien-nimes/images/usine-5.jpg"
+                                    alt="Réalisation de projets industriels 2"
                                     className="mobile-hidden"
                                 />
                                 <img
-                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1682695885/website-lending/electricien-nimes/claudio-schwarz-B5Uxl-QEGOE-unsplash_epslgg.jpg"
-                                    alt="Electricien Nîmes"
+                                    src="https://res.cloudinary.com/dg8awj55m/image/upload/c_fill,h_600,w_800,f_auto/v1683659619/website-lending/electricien-nimes/images/chaine-automatisee-3.jpg"
+                                    alt="Réalisation de projets industriels 3"
                                     className="mobile-hidden"
                                 />
                             </div>
