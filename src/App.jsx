@@ -12,6 +12,8 @@ import Lighting from "./pages/Lighting.jsx";
 import Automation from "./pages/Automation.jsx";
 import Realizations from './pages/Realizations';
 import ResidentialProjects from './pages/ResidentialProjects';
+import CommercialProjects from './pages/CommercialProjects';
+import IndustrialProjects from './pages/IndustrialProjects';
 import Contact from './pages/Contact';
 import Blogs from './pages/Blogs';
 import BlogArticle from './pages/BlogArticle';
@@ -41,14 +43,16 @@ function App() {
             <Nav/>
             <Routes>
                 <Route exact path={'/'} element={<Home/>}/>
-                <Route path={'/services'} element={<Services/>}/>
-                <Route path={'/installation'} element={<Installation/>}/>
-                <Route path={'/renovation-et-mise-aux-normes'} element={<Renovation/>}/>
-                <Route path={'/depannage-et-maintenance'} element={<Maintenance/>}/>
-                <Route path={'/eclairage'} element={<Lighting/>}/>
-                <Route path={'/domotique-et-objets-connectes'} element={<Automation/>}/>
-                <Route path={'/realisations'} element={<Realizations/>}/>
-                <Route path={'/projets-residentiels'} element={<ResidentialProjects/>}/>
+                <Route exact path={'/services'} element={<Services/>}/>
+                <Route path={'/services/installation'} element={<Installation/>}/>
+                <Route path={'/services/renovation-et-mise-aux-normes'} element={<Renovation/>}/>
+                <Route path={'/services/depannage-et-maintenance'} element={<Maintenance/>}/>
+                <Route path={'/services/eclairage'} element={<Lighting/>}/>
+                <Route path={'/services/domotique-et-objets-connectes'} element={<Automation/>}/>
+                <Route exact path={'/realisations'} element={<Realizations/>}/>
+                <Route path={'/realisations/projets-residentiels'} element={<ResidentialProjects/>}/>
+                <Route path={'/realisations/projets-commerciaux'} element={<CommercialProjects/>}/>
+                <Route path={'/realisations/projets-industriels'} element={<IndustrialProjects/>}/>
                 <Route path={'/contact'} element={<Contact/>}/>
                 <Route path={'/a-propos'} element={<AboutUs/>}/>
                 <Route exact path={'/blog'} element={<Blogs blogsData={blogsData} blogsFetched={blogsFetched}/>}/>

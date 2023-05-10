@@ -52,16 +52,16 @@ export default function Maintenance() {
 
                             <p>Notre service d'urgence électrique à Nîmes est simple et rapide :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Contactez-nous par téléphone ou via notre formulaire en ligne pour signaler votre
                                 problème électrique
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Un électricien qualifié se rendra sur place dans les plus brefs délais pour évaluer la
                                 situation et effectuer les réparations nécessaires
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Vous bénéficierez d'un suivi personnalisé et d'un accompagnement tout au long de
                                 l'intervention
                             </li>
@@ -69,17 +69,17 @@ export default function Maintenance() {
                         <div className="support-page-text">
                             <p>Parmi les urgences électriques les plus courantes à Nîmes, on retrouve :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Les coupures de courant
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les courts-circuits
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les surchauffes de câbles ou de prises
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les problèmes de disjoncteur
                             </li>
                         </ul>
@@ -96,14 +96,14 @@ export default function Maintenance() {
                             <p>Le diagnostic d'une panne électrique par notre équipe d'électriciens à Nîmes se déroule
                                 en plusieurs étapes :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 L'analyse de la situation et l'identification des symptômes de la panne
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La recherche de la cause du problème, en effectuant des tests et des mesures
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La proposition de solutions adaptées pour résoudre la panne et prévenir de futurs
                                 problèmes
                             </li>
@@ -112,17 +112,17 @@ export default function Maintenance() {
                         <div className="support-page-text">
                             <p>Parmi les pannes électriques les plus courantes à Nîmes, on retrouve :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Les problèmes de disjoncteurs ou de fusibles
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les courts-circuits
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les pannes d'éclairage
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les problèmes de prises ou d'interrupteurs
                             </li>
                         </ul>
@@ -141,14 +141,14 @@ export default function Maintenance() {
                             <p>Le remplacement de composants défectueux par notre équipe d'électriciens à Nîmes implique
                                 plusieurs étapes :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Le diagnostic de l'installation pour identifier les composants défectueux
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La proposition de solutions adaptées, incluant le remplacement des composants concernés
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La réalisation des travaux de remplacement et la vérification du bon fonctionnement de
                                 l'installation
                             </li>
@@ -156,17 +156,17 @@ export default function Maintenance() {
                         <div className="support-page-text">
                             <p>Parmi les composants électriques les plus couramment remplacés, on retrouve :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Les disjoncteurs
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les fusibles
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les prises et les interrupteurs
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les câbles électriques
                             </li>
                         </ul>

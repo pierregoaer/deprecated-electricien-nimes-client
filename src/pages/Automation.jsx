@@ -45,20 +45,20 @@ export default function Automation() {
                                 adaptées à vos besoins et à votre mode de vie. Parmi les principaux objets connectés que
                                 nous installons à Nîmes, on retrouve :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Les thermostats intelligents pour gérer votre chauffage et votre climatisation
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les détecteurs de fumée et de monoxyde de carbone connectés pour assurer votre sécurité
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les systèmes de vidéosurveillance et d'alarme pour protéger votre domicile
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les serrures connectées pour contrôler l'accès à votre maison
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Les éclairages et prises connectées pour automatiser votre éclairage et vos appareils
                                 électriques
                             </li>
@@ -67,19 +67,19 @@ export default function Automation() {
                             <p>L'installation d'objets connectés par notre équipe d'électriciens à Nîmes comprend
                                 plusieurs étapes clés :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 L'analyse de vos besoins et de vos attentes en matière de domotique et d'objets
                                 connectés
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La sélection des solutions adaptées à votre projet et à votre budget
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 L'installation proprement dite des objets connectés, incluant le câblage électrique et
                                 la configuration des appareils
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La formation à l'utilisation des objets connectés et de leur interface de contrôle
                             </li>
                         </ul>
@@ -87,18 +87,18 @@ export default function Automation() {
                             <p>Faire appel à un électricien professionnel pour l'installation d'objets connectés à Nîmes
                                 présente plusieurs avantages :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 L'assurance d'une installation conforme aux normes de sécurité et d'électricité
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Un accompagnement personnalisé pour choisir les meilleures solutions en fonction de vos
                                 besoins
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Un gain de temps et d'efficacité grâce à l'expertise d'un professionnel
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Une garantie sur l'installation et le matériel utilisé
                             </li>
                         </ul>
@@ -115,22 +115,22 @@ export default function Automation() {
                             <p>En tant qu'électricien à Nîmes spécialisé en domotique, nous vous proposons plusieurs
                                 conseils pour réussir votre projet :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Définissez clairement vos besoins et vos priorités : identifiez les fonctionnalités qui
                                 vous importent le plus et celles qui peuvent être mises en place ultérieurement.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Évaluez votre budget : la domotique peut représenter un investissement conséquent, il
                                 est donc important de déterminer le budget que vous êtes prêt à consacrer à votre
                                 projet.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Privilégiez la compatibilité et l'évolutivité : optez pour des solutions qui peuvent
                                 être facilement intégrées à votre installation existante et qui permettent d'ajouter de
                                 nouvelles fonctionnalités à l'avenir.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Consultez un professionnel : faites appel à un électricien spécialisé en domotique à
                                 Nîmes pour vous accompagner dans votre projet et vous conseiller sur les meilleures
                                 solutions à adopter.

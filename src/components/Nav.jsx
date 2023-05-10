@@ -22,13 +22,13 @@ export default function Nav() {
                         <Link to={'/services'} onClick={handleDisplayMobileNav}
                               className="nav-main-navigation-title">Services</Link>
                         <ul className="nav-main-navigation-dropdown-list">
-                            <li><Link to={'/installation'} onClick={handleDisplayMobileNav}>Installation</Link></li>
-                            <li><Link to={'/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
+                            <li><Link to={'/services/installation'} onClick={handleDisplayMobileNav}>Installation</Link></li>
+                            <li><Link to={'/services/renovation-et-mise-aux-normes'} onClick={handleDisplayMobileNav}>Rénovation
                                 et mise aux normes</Link></li>
-                            <li><Link to={'/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage et
+                            <li><Link to={'/services/depannage-et-maintenance'} onClick={handleDisplayMobileNav}>Dépannage et
                                 maintenance</Link></li>
-                            <li><Link to={'/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
-                            <li><Link to={'/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique
+                            <li><Link to={'/services/eclairage'} onClick={handleDisplayMobileNav}>Éclairage</Link></li>
+                            <li><Link to={'/services/domotique-et-objets-connectes'} onClick={handleDisplayMobileNav}>Domotique
                                 et objets connectés</Link></li>
                         </ul>
                     </li>
@@ -37,16 +37,16 @@ export default function Nav() {
                         <Link to={'/realisations'} onClick={handleDisplayMobileNav}
                               className="nav-main-navigation-title">Réalisations</Link>
                         <ul className="nav-main-navigation-dropdown-list">
-                            <li><Link to={'/projets-residentiels'} onClick={handleDisplayMobileNav}>Projets
+                            <li><Link to={'/realisations/projets-residentiels'} onClick={handleDisplayMobileNav}>Projets
                                 résidentiels</Link></li>
-                            <li><Link to={'/projets-commerciaux'} onClick={handleDisplayMobileNav}>Projets
+                            <li><Link to={'/realisations/projets-commerciaux'} onClick={handleDisplayMobileNav}>Projets
                                 commerciaux</Link></li>
-                            <li><Link to={'/projets-industriels'} onClick={handleDisplayMobileNav}>Projets
+                            <li><Link to={'/realisations/projets-industriels'} onClick={handleDisplayMobileNav}>Projets
                                 industriels</Link></li>
                         </ul>
                     </li>
                     <li className="nav-main-navigation-title">
-                        <Link to={'/a-propos'} onClick={handleDisplayMobileNav}>A propos</Link>
+                        <Link to={'/a-propos'} onClick={handleDisplayMobileNav}>À propos</Link>
                     </li>
                     <li className="nav-main-navigation-title">
                         <Link to={'/blog'} onClick={handleDisplayMobileNav}>Blog</Link>

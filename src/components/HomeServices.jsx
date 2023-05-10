@@ -21,7 +21,7 @@ export default function HomeServices() {
                         </svg>
                         <h4>Installation</h4>
                         <p>Nous prenons en charge l'installation électrique de votre habitation ou de vos locaux professionnels, qu'il s'agisse d'une construction neuve, d'une rénovation ou d'une extension. Nos électriciens à Nîmes réalisent des installations conformes à la norme NF C 15-100, en tenant compte de vos besoins et de vos contraintes.</p>
-                        <Link to={'/installation'} className="btn-tertiary">En savoir plus</Link>
+                        <Link to={'/services/installation'} className="btn-tertiary">En savoir plus</Link>
                     </div>
                     <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24">
@@ -33,7 +33,7 @@ export default function HomeServices() {
                         </svg>
                         <h4>Rénovation et mise aux normes</h4>
                         <p>Nous vous accompagnons dans la mise aux normes de votre installation électrique pour assurer la sécurité de votre habitation ou de vos locaux professionnels. Nos électriciens à Nîmes vérifient la conformité de vos équipements et réalisent les travaux nécessaires pour vous garantir une installation sécurisée et performante.</p>
-                        <Link to={'/renovation-et-mise-aux-normes'} className="btn-tertiary">En savoir plus</Link>
+                        <Link to={'/services/renovation-et-mise-aux-normes'} className="btn-tertiary">En savoir plus</Link>
                     </div>
                     <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 48 48">
@@ -44,7 +44,7 @@ export default function HomeServices() {
                         </svg>
                         <h4>Dépannage et maintenance</h4>
                         <p>Notre équipe d'électriciens à Nîmes intervient rapidement pour résoudre vos problèmes électriques. Qu'il s'agisse d'une panne de courant, d'un disjoncteur défectueux ou d'un équipement endommagé, nous résoudrons votre problème. Nous assurons également la maintenance préventive de vos installations électriques pour prévenir les pannes et garantir leur bon fonctionnement.</p>
-                        <Link to={'/depannage-et-maintenance'} className="btn-tertiary">En savoir plus</Link>
+                        <Link to={'/services/depannage-et-maintenance'} className="btn-tertiary">En savoir plus</Link>
                     </div>
                     <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -55,7 +55,7 @@ export default function HomeServices() {
                         </svg>
                         <h4>Éclairage</h4>
                         <p>Nous vous proposons des solutions d'éclairage innovantes et économiques pour votre intérieur et votre extérieur.</p>
-                        <Link to={'/eclairage'} className="btn-tertiary">En savoir plus</Link>
+                        <Link to={'/services/eclairage'} className="btn-tertiary">En savoir plus</Link>
                     </div>
                     <div className="home-services-service">
                         <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 16 16">
@@ -64,7 +64,7 @@ export default function HomeServices() {
                         </svg>
                         <h4>Domotique et objets connectés</h4>
                         <p>Nous vous proposons des systèmes de domotique pour faciliter la gestion de votre énergie et améliorer votre confort.</p>
-                        <Link to={'/domotique-et-objets-connectes'} className="btn-tertiary">En savoir plus</Link>
+                        <Link to={'/services/domotique-et-objets-connectes'} className="btn-tertiary">En savoir plus</Link>
                     </div>
                 </div>
             </div>

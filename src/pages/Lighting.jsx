@@ -52,14 +52,14 @@ export default function Lighting() {
                             <p>En tant qu'électricien à Nîmes, nous vous proposons des solutions d'éclairage intérieur
                                 sur mesure, incluant :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 L'installation de luminaires encastrés, suspendus ou sur rail
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 L'éclairage d'accentuation pour mettre en valeur vos objets décoratifs
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 L'éclairage fonctionnel pour vos espaces de travail, cuisine ou salle de bains
                             </li>
                         </ul>
@@ -67,14 +67,14 @@ export default function Lighting() {
                             <p>Pour vos espaces extérieurs, nous vous proposons également des solutions d'éclairage
                                 adaptées à vos besoins :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 L'éclairage de sécurité pour prévenir les intrusions et faciliter vos déplacements
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 L'éclairage d'ambiance pour sublimer votre jardin ou votre terrasse
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 L'éclairage architectural pour mettre en valeur les éléments de votre façade
                             </li>
                         </ul>
@@ -91,14 +91,14 @@ export default function Lighting() {
                             <p>Pour optimiser votre éclairage et réaliser des économies d'énergie, nous vous donnerons
                                 des conseils sur :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Choisir des ampoules à faible consommation, telles que les ampoules LED
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Utiliser des variateurs d'intensité pour adapter l'éclairage à vos besoins
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Installer des détecteurs de présence pour éviter de gaspiller de l'énergie
                             </li>
                         </ul>
@@ -117,16 +117,16 @@ export default function Lighting() {
                             <p>L'éclairage LED présente de nombreux avantages, en particulier pour les économies
                                 d'énergie et la durabilité :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Faible consommation d'énergie : les ampoules LED consomment jusqu'à 80 % d'énergie en
                                 moins que les ampoules traditionnelles.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Longue durée de vie : les ampoules LED ont une durée de vie pouvant atteindre 50 000
                                 heures, réduisant ainsi les coûts de remplacement.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Qualité de lumière : les LED offrent une lumière de qualité et un excellent rendu des
                                 couleurs.
                             </li>
@@ -137,16 +137,16 @@ export default function Lighting() {
                                 Nîmes, nous vous proposons des solutions d'éclairage connecté pour améliorer votre
                                 confort et votre sécurité :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Contrôle à distance de l'éclairage : allumez, éteignez ou ajustez l'intensité de vos
                                 luminaires depuis votre smartphone ou votre tablette.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Programmation de l'éclairage : programmez des scénarios d'éclairage personnalisés en
                                 fonction de vos besoins et de vos habitudes.
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Détecteurs de mouvement et de luminosité : adaptez automatiquement l'éclairage en
                                 fonction de la présence de personnes ou des conditions de luminosité.
                             </li>

@@ -59,17 +59,17 @@ export default function Renovation() {
 
                             <p>La mise aux normes de votre installation électrique implique plusieurs étapes, dont :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Le diagnostic de l'installation existante
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La proposition de solutions adaptées à votre situation
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Le remplacement ou la mise en conformité des équipements non conformes
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La vérification de la conformité de l'installation une fois les travaux réalisés
                             </li>
                         </ul>
@@ -84,14 +84,14 @@ export default function Renovation() {
                                 non conforme peut présenter des risques pour votre sécurité et celle de votre
                                 habitation. Le remplacement de votre tableau électrique peut être nécessaire pour :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Améliorer la sécurité de votre installation
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Augmenter la capacité de votre installation en cas d'ajout d'équipements électriques
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Faciliter la gestion de votre consommation électrique
                             </li>
                         </ul>
@@ -100,17 +100,17 @@ export default function Renovation() {
                             <p>Le remplacement d'un tableau électrique par notre équipe d'électriciens à Nîmes se
                                 déroule en plusieurs étapes :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Le diagnostic de votre installation et du tableau existant
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La proposition d'un nouveau tableau adapté à vos besoins et aux normes en vigueur
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 L'installation du nouveau tableau et la mise en service des équipements
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La vérification de la conformité de l'installation
                             </li>
                         </ul>
@@ -128,20 +128,20 @@ export default function Renovation() {
 
                             <p>Les signes d'un circuit électrique défectueux peuvent être variés, tels que :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Des disjoncteurs qui sautent fréquemment
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Des fusibles qui grillent
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Des prises ou interrupteurs qui chauffent
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Des variations de tension inhabituelles
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 Des coupures d’électricité
                             </li>
                         </ul>
@@ -153,14 +153,14 @@ export default function Renovation() {
                             <p>La réparation d'un circuit électrique par notre équipe d'électriciens à Nîmes implique
                                 plusieurs étapes :</p>
                         </div>
-                        <ul className="bullet-list-cards">
-                            <li className="bullet-list-card">
+                        <ul className="numbered-list-cards">
+                            <li className="numbered-list-card">
                                 Le diagnostic du circuit défectueux et l'identification de la cause du problème
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La proposition de solutions adaptées pour résoudre le dysfonctionnement
                             </li>
-                            <li className="bullet-list-card">
+                            <li className="numbered-list-card">
                                 La réalisation des travaux de réparation et la vérification du bon fonctionnement du
                                 circuit
                             </li>

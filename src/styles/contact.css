@@ -41,7 +41,7 @@ form {
     flex: 1 1 0;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 35px;
     padding: 30px 20px;
 }
 
@@ -52,9 +52,11 @@ form {
 }
 
 form input,
+form select,
 form textarea {
-    all: unset;
-    padding: 10px;
+    outline: none;
+    font-size: 1rem;
+    padding: 12px;
     border-radius: var(--border-radius-secondary);
     border: 1px solid var(--medium-grey);
 }
@@ -63,9 +65,20 @@ form textarea {
     height: 100px;
 }
 
+form select {
+    background-color: transparent;
+}
+
 form input:focus,
 form textarea:focus {
     border: 1px solid var(--primary-accent-color);
+    outline: none;
+}
+
+form input::placeholder,
+form select .dropdown-placeholder,
+form textarea::placeholder {
+    color: var(--secondary-text-color);
 }
 
 form button {

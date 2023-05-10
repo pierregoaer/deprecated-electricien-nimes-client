@@ -13,7 +13,7 @@
 .column-link,
 .column-1 p {
     font-size: 1.1rem;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .flex-column {
@@ -28,7 +28,7 @@
 }
 
 .column-link {
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
 
 .column-1 {
@@ -61,7 +61,8 @@
 .footer-copyrights {
     text-align: center;
     margin-top: 25px;
-    color: #737373
+    color: #737373;
+    font-weight: 200;
 }
 
 .footer-main {

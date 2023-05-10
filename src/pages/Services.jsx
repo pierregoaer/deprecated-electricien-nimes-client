@@ -54,7 +54,7 @@ export default function Services() {
                                     à respecter les normes en vigueur et à optimiser la sécurité et la performance
                                     de
                                     vos équipements.</p>
-                                <Link to={'/installation'} className="btn-tertiary">En savoir plus</Link>
+                                <Link to={'/services/installation'} className="btn-tertiary">En savoir plus</Link>
                             </div>
                             <div className="silo-card-image">
                                 <img
@@ -74,7 +74,7 @@ export default function Services() {
                                     Nîmes travaillent avec rigueur et professionnalisme pour assurer la qualité et
                                     la
                                     sécurité de vos installations.</p>
-                                <Link to={'/renovation-et-mise-aux-normes'} className="btn-tertiary">En savoir
+                                <Link to={'/services/renovation-et-mise-aux-normes'} className="btn-tertiary">En savoir
                                     plus</Link>
                             </div>
                             <div className="silo-card-image">
@@ -92,7 +92,7 @@ export default function Services() {
                                     et remplaçons les composants défectueux. Nos électriciens sont disponibles 24/7
                                     pour
                                     vous garantir une intervention rapide et efficace en toutes circonstances.</p>
-                                <Link to={'/depannage-et-maintenance'} className="btn-tertiary">En savoir
+                                <Link to={'/services/depannage-et-maintenance'} className="btn-tertiary">En savoir
                                     plus</Link>
                             </div>
                             <div className="silo-card-image">
@@ -111,7 +111,7 @@ export default function Services() {
                                     votre
                                     local commercial. Nous installons également des systèmes d'éclairage LED et
                                     domotique pour vous offrir un contrôle optimal de vos installations.</p>
-                                <Link to={'/eclairage'} className="btn-tertiary">En savoir plus</Link>
+                                <Link to={'/services/eclairage'} className="btn-tertiary">En savoir plus</Link>
                             </div>
                             <div className="silo-card-image">
                                 <img
@@ -128,7 +128,7 @@ export default function Services() {
                                     domotiques
                                     et d'objets connectés pour optimiser le confort, la sécurité et l'efficacité
                                     énergétique de votre habitation ou de votre entreprise.</p>
-                                <Link to={'/domotique-et-objets-connectes'} className="btn-tertiary">En savoir
+                                <Link to={'/services/domotique-et-objets-connectes'} className="btn-tertiary">En savoir
                                     plus</Link>
                             </div>
                             <div className="silo-card-image">

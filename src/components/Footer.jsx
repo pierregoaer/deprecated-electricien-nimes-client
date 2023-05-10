@@ -23,17 +23,17 @@ export default function Footer() {
                     </div>
                     <div className="column flex-column">
                         <Link to={'/services'} className="column-title">Services</Link>
-                        <Link to={'/installation'} className="column-link">Installation</Link>
-                        <Link to={'/renovation-et-mise-aux-normes'} className="column-link">Rénovation et mise aux normes</Link>
-                        <Link to={'/depannage-et-maintenance'} className="column-link">Dépannage et maintenance</Link>
-                        <Link to={'/eclairage'} className="column-link">Éclairage</Link>
-                        <Link to={'/domotique-et-objets-connectes'} className="column-link">Domotique et objets connectés</Link>
+                        <Link to={'/services/installation'} className="column-link">Installation</Link>
+                        <Link to={'/services/renovation-et-mise-aux-normes'} className="column-link">Rénovation et mise aux normes</Link>
+                        <Link to={'/services/depannage-et-maintenance'} className="column-link">Dépannage et maintenance</Link>
+                        <Link to={'/services/eclairage'} className="column-link">Éclairage</Link>
+                        <Link to={'/services/domotique-et-objets-connectes'} className="column-link">Domotique et objets connectés</Link>
                     </div>
                     <div className="column flex-column">
                         <Link to={'/realisations'} className="column-title">Réalisations</Link>
-                        <Link to={'/projets-residentiels'} className="column-link">Projets résidentiels</Link>
-                        <Link to={'/projets-commerciaux'} className="column-link">Projets commerciaux</Link>
-                        <Link to={'/projets-industriels'} className="column-link">Projets industriels</Link>
+                        <Link to={'/realisations/projets-residentiels'} className="column-link">Projets résidentiels</Link>
+                        <Link to={'/realisations/projets-commerciaux'} className="column-link">Projets commerciaux</Link>
+                        <Link to={'/realisations/projets-industriels'} className="column-link">Projets industriels</Link>
                     </div>
                     <div className="column flex-column">
                         <p className="column-title">Menu</p>
